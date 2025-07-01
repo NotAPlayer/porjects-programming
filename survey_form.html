@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="email">Email Address:</label>
+        <input type="text" name="email" id="email">
+    </form>
+    <form>
+        <p><strong>How Satisfied are you with our service?</strong></p>
+        <label for="VS">Very Satisfied</label>
+        <input type="radio" name="satisfaction" id="VS" value="VS">
+        <br><br>
+        <label for="Satisfied">Satisfied</label>
+        <input type="radio" name="satisfaction" id="Satisfied" value="Satisfied">
+        <br><br>
+        <label for="neutral">Neutral</label>
+        <input type="radio" name="satisfaction" id="neutral" value="neutral">
+        <br><br>
+        <label for="dissatisfied">Dissatisfied</label>
+        <input type="radio" name="satisfaction" id="dissatisfied" value="dissatisfied">
+        <br><br>
+        <label for="VD">Very Dissatisfied</label>
+        <input type="radio" name="satisfaction" id="VD" value="VD">
+    </form>
+    <form>
+        <p><strong>What features do you value most?</strong></p>
+        <label for="ease_of_use">Ease of Use</label>
+        <input type="checkbox" name="features" id="ease_of_use">
+        <br>
+
+        <label for="design">Design</label>
+        <input type="checkbox" name="features" id="design">
+        <br>
+
+        <label for="CS">Customer Support</label>
+        <input type="checkbox" name="features" id="CS">
+    </form>
+    <form>
+        <div><strong>What best describes you?</strong>
+            <select name="description" id="description">
+                <option value="Student">Student</option>
+                <option value="Professional">Professional</option>
+                <option value="Hobbyist">Hobbyist</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+    </form>
+    <form>
+
+        <label for="feedback">Additional Feedback:</label>
+        <br>
+        <textarea id="message" name="message"></textarea>
+        <br>
+        <input type="button" name="Submit" id="Submit" value="Submit">
+    </form>
+</body>
+</html>
