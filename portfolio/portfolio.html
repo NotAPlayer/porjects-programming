@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="Home">
+        <header>
+            <h1>Welcome to Jacob's Portfolio</h1>
+        </header>
+    </section>
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#Contacts">Contacts</a>
+    </nav>
+    <section id="about">
+        <img src="https://media.licdn.com/dms/image/v2/D5603AQEzulg1lHc9uQ/profile-displayphoto-scale_200_200/B56ZegxrvkG0AY-/0/1750749069018?e=2147483647&v=beta&t=-AkfHj7GwYaa1Xd87kVW_tO4KeasakUqW2dx-livG6g"
+            alt="My old picture" width="200" height="200">
+        <h2>About Me</h2>
+        <p>Hello, I am Undergraduate of Bachelor of Science in Computer Science, and I am aspiring to be a web
+            developer. I
+            enjoy creating projects especially games. This portfolio showcases my interests.</p>
+    </section>
+    <section id="projects">
+        <table>
+
+            <h2>My Projects</h2>
+            <thead>
+                <tr>
+                    <th>Project name</th>
+                    <th style="padding-left: 50px; padding-right: 80px;">Description</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>I miss you</td>
+                    <td style="padding-left: 50px; padding-right: 80px;">missing someone</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>Peak</td>
+                    <td style="padding-left: 50px; padding-right: 80px;">Co-op Game Climbing</td>
+                    <td>2025</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>A Game</td>
+                    <td style="padding-left: 50px; padding-right: 80px;">Offline Game</td>
+                    <td>1946</td>
+                </tr>
+                <tr>
+                    <td>Flappy</td>
+                    <td style="padding-left: 50px; padding-right: 80px;">Co-op Bird Game</td>
+                    <td>2016</td>
+                </tr>
+            </tbody>
+            <!--Projects are just for referrences as for now, I have no project completed yet.-->
+        </table>
+    </section>
+    <section id="Contacts">
+        <h2>Contact Me</h2>
+        <div>
+            <label for="Full-Name">Full Name:</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div><label for="Email-Address">Email Address: </label>
+            <input type="text" name="email" id="email">
+        </div>
+        <div><strong>How did you hear about this portfolio?</strong></div>
+        <div>
+            <input type="radio" name="hear" id="friend">
+            <label for="friend">Friend</label>
+        </div>
+        <div>
+            <input type="radio" name="hear" id="socmed">
+            <label for="Social Media">Social Media</label>
+        </div>
+        <div>
+            <input type="radio" name="hear" id="search">
+            <label for="searchEngine">Search Engine</label>
+        </div>
+        <div>
+            <input type="radio" name="hear" id="Other">
+            <label for="other">Other</label>
+        </div>
+        <div><strong>Skills/Interests</strong></div>
+        <div>
+            <input type="checkbox" name="skills" id="friend">
+            <label for="webdev">Web Development</label>
+        </div>
+        <div>
+            <input type="checkbox" name="skills" id="socmed">
+            <label for="design">Design</label>
+        </div>
+        <div>
+            <input type="checkbox" name="skills" id="search">
+            <label for="photography">Photography</label>
+        </div>
+        <h3>Comments or Messages:</h3>
+        <textarea name="messages" id="messages" style="padding: 20px;"></textarea>
+        <input type="submit" name="submit" id="submit" value="Submit">
+    </section>
+    <footer>© 2025</footer>
+</body>
+
+</html>
