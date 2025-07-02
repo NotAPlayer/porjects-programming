@@ -1,1 +1,4 @@
-took 1 hour and a half
+//took 1 hour and a half//
+
+
+The challenges I faced was the what design I should do to my portfolio, what colors that are not sore in eyes, what positioning and animation of the text should be, my favorite about styling my html portfolio is using keyframes and some animations as I loved putting behaviors in html's 

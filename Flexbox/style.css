@@ -1,36 +1,58 @@
 body {
-    display: flex;
-    width: 1200px;
-    margin: 0 auto;
-    flex-direction: column;
-    gap: 24px;
+    font-family: Arial, sans-serif;
+    margin: 2 20px;
+    padding: 2 20px;
+    border: 1px solid black;
 }
 
 header {
-    background-color: #ffcc00;
-    height: 150px;
-}
-
-aside {
-    background-color: #9b59b6;
-    height: 300px;
-    width: 300px;
-}
-
-section {
-    background-color: #1abc9c;
-    height: 300px;
-    width: 876px;
-    /*Width is 876 that's why I used 24px gap to the body and main*/
-
-}
-
-footer {
-    background-color: #e74c3c;
-    height: 100px;
-}
-
-main {
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 20px;
+    color: white;
     display: flex;
-    gap: 24px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(194, 190, 190);
+    color: white;
+    width: 15rem;
+    padding: 1rem;
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.top-bar,
+.main-content {
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    background-color: lightcoral;
+    padding: 20px;
+    text-align: center;
+}
+footer{
+    display: flex;
+    background-color: rgb(219, 60, 60);
+    text-align: center;
+    color: white;
+    justify-content: center;
 }
