@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 24px;
+}
+
+header {
+    background-color: #ffcc00;
+    height: 150px;
+}
+
+aside {
+    background-color: #9b59b6;
+    height: 300px;
+    width: 300px;
+}
+
+section {
+    background-color: #1abc9c;
+    height: 300px;
+    width: 876px;
+    /*Width is 876 that's why I used 24px gap to the body and main*/
+
+}
+
+footer {
+    background-color: #e74c3c;
+    height: 100px;
+}
+
+main {
+    display: flex;
+    gap: 24px;
+}
