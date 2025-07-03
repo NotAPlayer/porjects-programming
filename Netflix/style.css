@@ -133,14 +133,14 @@ main img {
     border-radius: 10px;
 }
 
-article ul {
+.reason ul {
     display: flex;
     gap: 100px;
     justify-content: center;
     margin: 15px 0px 20px 0px;
 }
 
-article li {
+.reason li {
     color: white;
     width: 324px;
     background-color: #202444;
@@ -148,5 +148,11 @@ article li {
     padding: 20px;
     border-radius: 15px;
     height: 400px;
-    
+
+}
+
+.reason p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(207, 207, 207)
 }
