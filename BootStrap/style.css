@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #28242c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #702cf4;
+    padding: 0.5px 30px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation li {
+    margin-left: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.logo1 {
+    width: 60px;
+}
+
+.searchbar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#search {
+    height: 10px;
+    width: 15rem;
+    padding: 10px 10px 10px 40px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 45rem;
+    outline: 1pt white solid;
+    background-color: #683ac4;
+    background-image: url(search.png);
+    background-position: 5px;
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+
+::placeholder {
+    color: rgb(250, 247, 247);
+    opacity: 0.5;
+}
+
+main img {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 760px;
+}
+
+.build {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.build h1 {
+    font-size: 50px;
+    width: 800px;
+    text-align: center !important;
+}
+
+.powerful {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.powerful p {
+    color: rgb(194, 191, 191);
+    width: 670px;
+    text-align: center;
+
+}
+
+#npm {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+#npm label {
+    color: rgb(243, 237, 237);
+    outline: 1pt red solid;
+    padding: 20px 20px 20px 20px;
+    width: 300px;
+    background-color: #38373a;
+    text-align: left;
+    border-radius: 5px;
+
+}
+
+#npm #read {
+    width: 150px;
+    background-color: #683ac4;
+    color: white;
+    border-radius: 10px;
+    border-color: #683ac4;
+}
+
+.latest {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+    width: 1800px;
+    color: rgb(167, 162, 162);
+    outline: 1pt red solid;
+    font-size: smaller;
+}
+
+.latest a {
+    text-decoration: underline;
+    color: rgb(167, 162, 162);
+}
+
+.greater {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.greater p {
+    font-size: 30px;
+    font-family: 'consolas';
+    background-color: #30243c;
+    padding: 10px;
+    border-radius: 10px;
+    color: #683ac4;
+}
+
+.greater h1 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#getstarted {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#jump {
+    display: flex;
+    color: rgb(194, 191, 191);
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+    width: 680px;
+    margin-left: 550px;
+}
+
+#install,
+a {
+    color: #6090d8;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+
+#install p {
+    color: #6090d8;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/***** outline: 1pt red solid;*****/
