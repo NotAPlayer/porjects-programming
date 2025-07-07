@@ -1,0 +1,3 @@
+At first I thought it was complex, what I did was adjust the margin at first but I think it's cheating or not following the instruction and I tried to figure out other things such using gap and display:flex and flex-direction to column
+
+it took my 10-15 minutes completing the task
