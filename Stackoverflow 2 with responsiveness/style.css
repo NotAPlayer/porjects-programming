@@ -1,0 +1,566 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    outline: 1pt solid rgb(129, 125, 125);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#logo {
+    width: 200px;
+    margin-left: 30px;
+}
+
+.topnav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex: 1;
+    min-width: 180px;
+    margin-left: 30px;
+}
+
+
+
+#search {
+    height: 40px;
+    width: 100%;
+    max-width: 300px;
+    padding-left: 10px;
+    border-radius: 2px;
+    border: none;
+    outline: 1pt solid rgb(129, 125, 125);
+    background-color: #fdfdfd;
+}
+
+input[name="login"] {
+    height: 40px;
+    width: 75px;
+    border-radius: 7px;
+    color: #2074d4;
+    border: 1px solid #2074d4;
+}
+
+input[name="signup"] {
+    height: 40px;
+    width: 80px;
+    background-color: #2074d4;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 83px;
+    left: 0;
+    width: 220px;
+    height: calc(100vh - 83px);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    z-index: 1;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.upper,
+.middle,
+.lower {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.lower p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.sidebar img {
+    width: 18px;
+}
+
+/* MAIN CONTENT */
+
+main .container {
+    margin-left: 220px;
+    padding: 100px 20px 40px 20px;
+}
+
+.every,
+.services,
+.overflow,
+.lowermain,
+.bottom {
+    max-width: 1250px;
+    margin: 0 auto 60px auto;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.every {
+    background-color: #f8fbfa;
+    position: relative;
+    overflow: hidden;
+}
+
+.every h1 {
+    font-size: 36px;
+    z-index: 2;
+    position: relative;
+    max-width: 700px;
+    line-height: 1.2;
+}
+
+.developer-container {
+    position: relative;
+    display: inline-block;
+}
+
+#developer {
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.developer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    height: auto;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.hero {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    max-width: 100%;
+    z-index: 0;
+    height: auto;
+}
+
+.every p {
+    margin-top: 2rem;
+    max-width: 650px;
+    font-size: 16px;
+    color: #4b4848;
+    z-index: 2;
+    position: relative;
+}
+
+.signvisit {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.signvisit a {
+    color: #2074d4;
+    text-decoration: none;
+}
+
+.services-heading,
+.work {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.content,
+.content3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+    outline: 1pt solid rgb(235, 227, 227);
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+#forteams p {
+    margin: 1rem 0;
+    color: #333;
+    max-width: 500px;
+}
+
+.content p {
+    font-weight: normal;
+}
+
+.content a,
+.lowermain a {
+    font-size: 15px;
+    margin-left: 10px;
+    color: rgb(22, 139, 218);
+}
+
+input[name="explore"],
+input[name="ads"],
+input[name="api"],
+input[name="supercharge"],
+input[name="careers"] {
+    margin-top: 20px;
+    height: 40px;
+    background-color: #2074d4;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+
+
+input[name="supercharge"] {
+    background-color: #e8740c;
+}
+
+#hometeam {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 5%;
+}
+
+.homeai {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+#career {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+#overflow {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.overflow {
+    background-color: #404444;
+    color: white;
+    position: relative;
+}
+
+.content2 p {
+    max-width: 600px;
+}
+
+.lowermain {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    min-width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    outline: 1px solid rgb(235, 227, 227);
+    padding: 30px;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+}
+
+#logostack img {
+    width: 150px;
+    height: auto;
+}
+
+#logostack p {
+    margin-top: 1rem;
+    max-width: 500px;
+}
+/*for desktop but no need actually just input it for aesthetic joke*/
+@media (max-width: 1024px) {
+    body {
+        max-width: 100%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 1023px) {
+    .topnav {
+        padding: 1rem;
+    }
+
+    #logo {
+        margin-left: 0;
+        width: 180px;
+    }
+
+    .topnav ul {
+        margin-left: 15px;
+        gap: 20px;
+    }
+
+    form {
+        margin-right: 0;
+    }
+
+    .sidebar {
+        width: 180px;
+    }
+
+    main .container {
+        margin-left: 180px;
+        padding: 100px 15px 40px 15px;
+    }
+
+    .every h1 {
+        font-size: 30px;
+    }
+
+    .hero {
+        width: 300px;
+    }
+
+    .content,
+    .content3,
+    .lowermain {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hometeam,
+    .homeai,
+    #career {
+        max-width: 300px;
+    }
+}
+
+/* Mobile Below 480px */
+@media  (max-width: 480px) {
+    .topnav {
+        position: static;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 1rem;
+        gap: 15px;
+    }
+
+    #logo {
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .topnav ul {
+        justify-content: center;
+        margin: 0;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .topnav form {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+
+    #search {
+        max-width: none;
+        width: 100%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    main .container {
+        margin: 0;
+        padding: 20px 15px 40px 15px;
+    }
+
+    .every,
+    .services,
+    .overflow,
+    .lowermain,
+    .bottom {
+        padding: 50px;
+        margin-bottom: 30px;
+    }
+    .lowermain form a {}
+
+    .every h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .developer-container {
+        display: inline-block;
+        position: relative;
+    }
+
+    .developer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 120%;
+        height: auto;
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    #developer {
+        position: relative;
+        z-index: 2;
+        color: white;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .hero {
+        position: static;
+        width: 100%;
+        max-width: 300px;
+        display: block;
+        margin: 20px auto 0;
+    }
+
+    .every p {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .signvisit {
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .signvisit input,
+    .signvisit a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .services-heading,
+    .work {
+        text-align: center;
+    }
+
+    .content,
+    .content3 {
+        text-align: center;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    .lowermain {
+        flex-direction: column;
+    }
+
+    .card {
+        min-width: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    #hometeam,
+    .homeai {
+        max-width: 250px;
+        margin: 0 auto;
+        order: 2;
+    }
+
+    #forteams {
+        order: 1;
+    }
+
+    #career {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    #overflow {
+        width: 200px;
+        margin: 0 auto 20px;
+    }
+
+    .overflow {
+        text-align: center;
+    }
+
+    .overflow .content2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .overflow .homeai {
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    .overflow .content2 p {
+        order: 2;
+    }
+
+    .overflow form {
+        order: 3;
+    }
+    
+}
+/*another 8 hours and used a bit of AI huhuhuhu sorry po*/

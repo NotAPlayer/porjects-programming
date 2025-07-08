@@ -1,0 +1,1 @@
+Hello sir, I don't why but my screen is too big and I don't know if it will fit on other screens, that's why my gaps that are set in css are too big. Sorry if ever sir and Thank you!

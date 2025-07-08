@@ -156,3 +156,14 @@ main img {
     font-size: 20px;
     color: rgb(207, 207, 207)
 }
+
+footer form {
+    width: 1000px;
+    margin: 30px 25px 20px 500px;
+}
+
+footer p {
+    color: white;
+    font-size: smaller;
+    margin-left: 700px;
+}
