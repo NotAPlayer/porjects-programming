@@ -325,13 +325,13 @@ input[name="supercharge"] {
     margin-top: 1rem;
     max-width: 500px;
 }
-/*for desktop but no need actually just input it for aesthetic joke*/
+/*for desktop but no need actually just input it for aesthetic joke
 @media (max-width: 1024px) {
     body {
         max-width: 100%;
     }
 }
-
+*/
 /* Tablet */
 @media (min-width: 481px) and (max-width: 1023px) {
     .topnav {
@@ -563,4 +563,3 @@ input[name="supercharge"] {
     }
     
 }
-/*another 8 hours and used a bit of AI huhuhuhu sorry po*/

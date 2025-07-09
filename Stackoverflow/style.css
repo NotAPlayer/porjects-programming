@@ -105,13 +105,15 @@ input[name="signup"] {
 }
 
 /* MAIN LAYOUT */
-.every,
-.lowermain {
+.every {
     position: relative;
     width: calc(100% - 500px);
     margin-left: 500px;
     padding: 50px;
     box-sizing: border-box;
+}
+.lowermain {
+    margin: 30px 0px 50px 0px
 }
 
 .every {
@@ -184,7 +186,7 @@ input[name="signup"] {
     font-size: 20px;
     font-weight: bold;
     color: #333;
-    margin-bottom: 1rem;
+    margin: 20px 0px 20px 0px;
 
 }
 
@@ -321,9 +323,6 @@ input[name="supercharge"] {
     max-width: 609px;
 }
 
-.card:hover {
-    transform: translateY(-4px);
-}
 
 .card img {
     width: 100px;
@@ -381,7 +380,7 @@ input[name="ads"] {
     font-size: 20px;
     font-weight: bold;
     color: #333;
-    margin-bottom: 1rem;
+    margin-bottom: 20px;
 }
 
 .content3 {
@@ -421,7 +420,7 @@ input[name="careers"] {
     z-index: 0;
 }
 #logostack img{
-    width: 150px;
+    width: 200px;
+    height: 50px;
     margin-left: 20px
-
-}/* TOOK ME 8 hours huhuhu*/
+}
