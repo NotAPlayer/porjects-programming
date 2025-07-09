@@ -47,11 +47,10 @@ header {
 
 #search {
     height: 10px;
-    width: 15rem;
     padding: 10px 10px 10px 40px;
     border-radius: 5px;
     border: none;
-    margin-right: 45rem;
+    margin-right: 31%;
     outline: 1pt white solid;
     background-color: #683ac4;
     background-image: url(search.png);
@@ -66,10 +65,7 @@ header {
 }
 
 main img {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    padding-left: 760px;
+    margin: 100px 0px 10px 45%;
 }
 
 .build {
@@ -81,7 +77,8 @@ main img {
 .build h1 {
     font-size: 50px;
     width: 800px;
-    text-align: center !important;
+    text-align: center;
+    margin-left: 43px;
 }
 
 .powerful {
@@ -100,14 +97,14 @@ main img {
 #npm {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin: 20px 0px 0px 20px;
     gap: 15px;
 }
 
 #npm label {
     color: rgb(243, 237, 237);
     padding: 20px 20px 20px 20px;
-    width: 300px;
+    width: 225px;
     background-color: #38373a;
     text-align: left;
     border-radius: 5px;
@@ -125,11 +122,14 @@ main img {
 .latest {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    gap: 50px;
-    width: 1800px;
+    margin: 20px 0px 0px 0px;
     color: rgb(167, 162, 162);
     font-size: smaller;
+    gap: 30px;
+}
+
+.latest p {
+    margin-top: 5px;
 }
 
 .latest a {
@@ -169,30 +169,21 @@ main img {
 }
 
 #jump {
-    display: flex;
     color: rgb(194, 191, 191);
-    justify-content: center;
     margin-top: 10px;
     text-align: center;
     width: 680px;
-    margin-left: 550px;
+    margin-left: 33%;
 }
 
 #install,
-a {
+a, #install p {
     color: #6090d8;
     display: flex;
     justify-content: center;
-    margin-top: 5px;
+    margin: 7px 0px 0px 10px ;
 
 }
 
-#install p {
-    color: #6090d8;
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-    margin-left: 5px;
-}
 
 /***** outline: 1pt red solid;*****/

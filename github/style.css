@@ -100,7 +100,7 @@ header form {
     position: sticky;
     top: 0px;
     background-color: #000000;
-    padding: 20px;
+    padding: 5px 0px 10px 0px;
 }
 
 .stickynav ul {
@@ -131,7 +131,7 @@ h3 {
     justify-content: space-between;
     align-items: flex-start;
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 0px 0px 0px 26%;
     padding: 40px 16px;
 }
 
