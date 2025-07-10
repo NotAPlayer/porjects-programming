@@ -17,7 +17,7 @@
     outline: 1pt solid rgb(129, 125, 125);
 }
 
-#logo {
+.logo {
     width: 250px;
     margin-left: 150px;
 }
@@ -29,7 +29,7 @@
     gap: 50px;
 }
 
-#search {
+.search {
     height: 40px;
     width: 50rem;
     margin-left: 20px;
@@ -112,6 +112,7 @@ input[name="signup"] {
     padding: 50px;
     box-sizing: border-box;
 }
+
 .lowermain {
     margin: 30px 0px 50px 0px
 }
@@ -146,14 +147,14 @@ input[name="signup"] {
     z-index: 2;
 }
 
-#every,
-#developer,
-#has {
+.every-text,
+.developer-text,
+.has-text {
     display: inline-block;
     margin-right: 5px;
 }
 
-#developer {
+.developer-text {
     color: white;
 }
 
@@ -187,7 +188,6 @@ input[name="signup"] {
     font-weight: bold;
     color: #333;
     margin: 20px 0px 20px 0px;
-
 }
 
 .content {
@@ -202,8 +202,7 @@ input[name="signup"] {
     padding-left: 50px;
 }
 
-
-#forteams p {
+.forteams p {
     margin: 1rem 0;
     color: #333;
 }
@@ -229,7 +228,7 @@ input[name="explore"] {
     color: rgb(22, 139, 218);
 }
 
-#hometeam {
+.hometeam {
     position: absolute;
     right: 2rem;
     bottom: 1rem;
@@ -238,7 +237,6 @@ input[name="explore"] {
 }
 
 /* OVERFLOW SECTION */
-
 .overflow {
     background-color: #404444;
     border-radius: 5px;
@@ -251,7 +249,7 @@ input[name="explore"] {
     position: relative;
 }
 
-#overflow {
+.overflow-logo {
     display: flex;
     width: 250px;
     height: 13vh;
@@ -276,7 +274,7 @@ input[name="explore"] {
     margin: 0 0 0 30px;
 }
 
-#available {
+.available {
     font-size: larger;
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -323,26 +321,23 @@ input[name="supercharge"] {
     max-width: 609px;
 }
 
-
 .card img {
     width: 100px;
     border-radius: 8px;
     margin-left: 0px;
     display: block;
-
 }
 
-#card1 {
+.card1 {
     width: 200px
 }
 
-#card2 {
+.card2 {
     width: 200px
 }
 
 .card p {
     margin-top: 10px;
-
 }
 
 input[name="api"] {
@@ -395,8 +390,7 @@ input[name="ads"] {
     padding-left: 50px;
 }
 
-
-#logostack p {
+.logostack p {
     margin: 1rem 0 0px 20px;
     color: #333;
     width: 501px;
@@ -412,14 +406,15 @@ input[name="careers"] {
     border-radius: 5px;
 }
 
-#career {
-   position: absolute;
+.career {
+    position: absolute;
     bottom: -53rem;
-    right: 50px; 
+    right: 50px;
     width: 600px;
     z-index: 0;
 }
-#logostack img{
+
+.logostack img {
     width: 200px;
     height: 50px;
     margin-left: 20px

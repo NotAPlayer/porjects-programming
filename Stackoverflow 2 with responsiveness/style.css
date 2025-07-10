@@ -20,7 +20,7 @@
     gap: 10px;
 }
 
-#logo {
+.logo {
     width: 200px;
     margin-left: 30px;
 }
@@ -35,13 +35,11 @@
     margin-left: 30px;
 }
 
-
-
-#search {
+.search {
     height: 40px;
-    width: 100%;
-    max-width: 300px;
-    padding-left: 10px;
+    width: 50rem;
+    margin-left: 20px;
+    padding-left: 40px;
     border-radius: 2px;
     border: none;
     outline: 1pt solid rgb(129, 125, 125);
@@ -150,7 +148,7 @@ main .container {
     display: inline-block;
 }
 
-#developer {
+.developer-text {
     position: relative;
     z-index: 2;
     color: white;
@@ -222,7 +220,7 @@ main .container {
     flex-wrap: wrap;
 }
 
-#forteams p {
+.forteams p {
     margin: 1rem 0;
     color: #333;
     max-width: 500px;
@@ -254,13 +252,11 @@ input[name="careers"] {
     cursor: pointer;
 }
 
-
-
 input[name="supercharge"] {
     background-color: #e8740c;
 }
 
-#hometeam {
+.hometeam {
     width: 100%;
     max-width: 400px;
     height: auto;
@@ -268,18 +264,22 @@ input[name="supercharge"] {
 }
 
 .homeai {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 450px;
+    max-width: 55%;
+    height: auto;
+    z-index: 1;
+}
+
+.career {
     width: 100%;
     max-width: 400px;
     height: auto;
 }
 
-#career {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-}
-
-#overflow {
+.overflow-logo {
     width: 250px;
     height: auto;
     margin-bottom: 20px;
@@ -289,6 +289,12 @@ input[name="supercharge"] {
     background-color: #404444;
     color: white;
     position: relative;
+    overflow: hidden;
+}
+
+.content2 {
+    position: relative;
+    z-index: 2;
 }
 
 .content2 p {
@@ -316,15 +322,16 @@ input[name="supercharge"] {
     max-width: 100%;
 }
 
-#logostack img {
+.logostack img {
     width: 150px;
     height: auto;
 }
 
-#logostack p {
+.logostack p {
     margin-top: 1rem;
     max-width: 500px;
 }
+
 /*for desktop but no need actually just input it for aesthetic joke
 @media (max-width: 1024px) {
     body {
@@ -338,7 +345,7 @@ input[name="supercharge"] {
         padding: 1rem;
     }
 
-    #logo {
+    .logo {
         margin-left: 0;
         width: 180px;
     }
@@ -376,15 +383,20 @@ input[name="supercharge"] {
         align-items: center;
     }
 
-    #hometeam,
+    .hometeam,
     .homeai,
-    #career {
+    .career {
         max-width: 300px;
+    }
+
+    .homeai {
+        width: 350px;
+        max-width: 45%;
     }
 }
 
 /* Mobile Below 480px */
-@media  (max-width: 480px) {
+@media (max-width: 480px) {
     .topnav {
         position: static;
         flex-direction: column;
@@ -393,7 +405,7 @@ input[name="supercharge"] {
         gap: 15px;
     }
 
-    #logo {
+    .logo {
         width: 150px;
         margin: 0 auto;
     }
@@ -411,9 +423,9 @@ input[name="supercharge"] {
         margin: 0;
     }
 
-    #search {
+    .search {
         max-width: none;
-        width: 100%;
+        width: 30%;
     }
 
     .sidebar {
@@ -433,6 +445,7 @@ input[name="supercharge"] {
         padding: 50px;
         margin-bottom: 30px;
     }
+
     .lowermain form a {}
 
     .every h1 {
@@ -457,7 +470,7 @@ input[name="supercharge"] {
         pointer-events: none;
     }
 
-    #developer {
+    .developer-text {
         position: relative;
         z-index: 2;
         color: white;
@@ -518,23 +531,23 @@ input[name="supercharge"] {
         text-align: center;
     }
 
-    #hometeam,
+    .hometeam,
     .homeai {
         max-width: 250px;
         margin: 0 auto;
         order: 2;
     }
 
-    #forteams {
+    .forteams {
         order: 1;
     }
 
-    #career {
+    .career {
         max-width: 300px;
         margin: 0 auto;
     }
 
-    #overflow {
+    .overflow-logo {
         width: 200px;
         margin: 0 auto 20px;
     }
@@ -549,9 +562,12 @@ input[name="supercharge"] {
         align-items: center;
     }
 
-    .overflow .homeai {
+    .homeai {
+        position: static;
         order: 1;
         margin-bottom: 20px;
+        width: 200px;
+        max-width: 80%;
     }
 
     .overflow .content2 p {
@@ -561,5 +577,5 @@ input[name="supercharge"] {
     .overflow form {
         order: 3;
     }
-    
+
 }
