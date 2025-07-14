@@ -2,16 +2,111 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://code.jquery.com/jquery-3.7.1.js"
-        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <title>Mini Documentation</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
- <h1>jsdashdsahdsahd</h1>
- <h2>dasdsadsadsa</h2>
+
+    <div class="sidebar">
+        <h1>Click each fucnction to navigate to each section</h1>
+        <a href="#click">.click()</a>
+        <a href="#hide">.hide()</a>
+        <a href="#show">.show()</a>
+        <a href="#toggle">.toggle()</a>
+        <a href="#slideDown">.slideDown()</a>
+        <a href="#slideUp">.slideUp()</a>
+        <a href="#slideToggle">.slideToggle()</a>
+        <a href="#fadeIn">.fadeIn()</a>
+        <a href="#fadeOut">.fadeOut()</a>
+        <a href="#addClass">.addClass()</a>
+        <a href="#before">.before()</a>
+        <a href="#after">.after()</a>
+        <a href="#append">.append()</a>
+        <a href="#html">.html()</a>
+        <a href="#attr">.attr()</a>
+        <a href="#val">.val()</a>
+        <a href="#text">.text()</a>
+    </div>
+
+    <div class="content">
+        <h1>My Mini Documentation</h1>
+
+        <div class="section">
+            <div id="click">
+                <h2>Click</h2><button id="btnClick">.click()</button>
+                <p>Click to show alert</p>
+            </div>
+            <div id="hide">
+                <h2>Hide</h2><button id="btnHide">.hide()</button>
+                <p id="hideText">I will be hidden</p>
+            </div>
+            <div id="show">
+                <h2>Show</h2><button id="btnShow">.show()</button>
+                <p id="showText" style="display:none;">I'm shown</p>
+            </div>
+            <div id="toggle">
+                <h2>Toggle</h2><button id="btnToggle">.toggle()</button>
+                <p id="toggleText">Toggle me</p>
+            </div>
+            <div id="slideDown">
+                <h2>SlideDown</h2><button id="btnSlideDown">.slideDown()</button>
+                <p id="slideDownText" style="display:none;">Slid down!</p>
+            </div>
+            <div id="slideUp">
+                <h2>SlideUp</h2><button id="btnSlideUp">.slideUp()</button>
+                <p id="slideUpText">I'll slide up</p>
+            </div>
+            <div id="slideToggle">
+                <h2>SlideToggle</h2><button id="btnSlideToggle">.slideToggle()</button>
+                <p id="slideToggleText">Slide toggle me</p>
+            </div>
+            <div id="fadeIn">
+                <h2>FadeIn</h2><button id="btnFadeIn">.fadeIn()</button>
+                <p id="fadeInText" style="display:none;">Faded in</p>
+            </div>
+            <div id="fadeOut">
+                <h2>FadeOut</h2><button id="btnFadeOut">.fadeOut()</button>
+                <p id="fadeOutText">Fading out...</p>
+            </div>
+            <div id="addClass">
+                <h2>AddClass</h2><button id="btnAddClass">.addClass()</button>
+                <p id="addClassText">Watch me bleed</p>
+            </div>
+            <div id="before">
+                <h2>Before</h2><button id="btnBefore">.before()</button>
+                <p id="beforeText">Before me (on my top)</p>
+            </div>
+            <div id="after">
+                <h2>After</h2><button id="btnAfter">.after()</button>
+                <p id="afterText">Text After me will be inserted (below)</p>
+            </div>
+            <div id="append">
+                <h2>Append</h2><button id="btnAppend">.append()</button>
+                <p id="appendText">Jacob Jhon Gabriel</p>
+            </div>
+            <div id="html">
+                <h2>HTML</h2><button id="btnHtml">.html()</button>
+                <p id="htmlText">HTML here</p>
+            </div>
+            <div id="attr">
+                <h2>Attr</h2><button id="btnAttr">.attr()</button><img id="attrImage"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Hwang_Yeji_02.jpg/250px-Hwang_Yeji_02.jpg"
+                    alt="kpop img" />
+            </div>
+            <div id="val">
+                <h2>Val</h2><input type="text" id="valInput" value="Type here" /><button id="btnVal">.val()</button>
+            </div>
+            <div id="text">
+                <h2>Text</h2><button id="btnText">.text()</button>
+                <p id="textText">Some text</p>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
