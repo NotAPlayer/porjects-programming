@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(Lucky.png);
+    
+}
+
+.poster-container {
+    padding: 16px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    gap: 12px;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    object-fit: cover;
+}
+header {
+    margin-top: 100px;
+    text-align: center;
+}
