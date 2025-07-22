@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanban Board</title>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>My Kanban Board</h1>
+    <main class="board">
+        <section class="column">
+            <h2>To Do</h2>
+            <ul class="task-list" id="todo">
+                <li class="task">
+                    <img src="wash.jpg" alt="Washing Dishes"> Wash Dishes
+                </li>
+                <li class="task">
+                    <img src="sweep.jpg" alt="Sweeping Floor"> Sweep the Floor
+                </li>
+            </ul>
+        </section>
+
+        <section class="column">
+            <h2>In Progress</h2>
+            <ul class="task-list" id="inprogress">
+                <li class="task">
+                    <img src="mop.jpg" alt="Mopping"> Mop the Floor
+                </li>
+            </ul>
+        </section>
+
+        <section class="column">
+            <h2>For Approval</h2>
+            <ul class="task-list" id="forapproval"></ul>
+        </section>
+
+        <section class="column">
+            <h2>Testing</h2>
+            <ul class="task-list" id="testing"></ul>
+        </section>
+
+        <section class="column">
+            <h2>Done</h2>
+            <ul class="task-list" id="done"></ul>
+        </section>
+    </main>
+</body>
+
+</html>
