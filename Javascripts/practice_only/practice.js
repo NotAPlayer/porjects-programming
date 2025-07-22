@@ -3,3 +3,5 @@ let artifactsName = {
     type: "feather"
 };
 console.log(artifactsName.name);
+// for (start; condition; step) {
+    // code to repeat }
